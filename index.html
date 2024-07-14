@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi sitio web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/font.css" />
+  </head>
+  <body class="poppins-bold">
+    <header>
+      <h1>Sofia Kauffer</h1>
+      <h2 class="poppins-light">Mi pagina web</h2>
+    </header>
+    <main>
+      <section>
+        <div id="perfil">
+          <img src="assets/image/foto sofi.png" width="250px" height="250px" />
+          <div id="sobreMi">
+            <h1>Sobre Mi</h1>
+            <p class="poppins-regular">
+              Soy estudiante Carrera de Desarrollo Full Stack, soy artista digital
+              y musico. Me considero una persona con buena predisposición para encarar
+              proyectos y me comprometo a seguirlo hasta finalizarlo. Tengo la
+              capacidad de transformar e intercambiar información de forma
+              efectiva con todas las personas.
+            </p>
+            </div>
+        </div>
+
+        </div>
+
+        <div id="tecnologias">
+          <h2>Mis Tecnologías Favoritas</h2>
+
+          <div id="cards-container">
+            <div class="cards">
+              <p class="poppins-medium">HTML</p>
+              <img
+                src="assets/image/HTML5_logo_and_wordmark.svg.png"
+                class="logo"
+              />
+            </div>
+
+            <div class="cards">
+              <p class="poppins-medium">CSS</p>
+              <img
+                src="assets/image/CSS3_logo_and_wordmark.svg.webp"
+                class="logo"
+              />
+            </div>
+
+            <div class="cards">
+              <p class="poppins-medium">JavaScript</p>
+              <img src="assets/image/Javascript_badge.svg.png" class="logo" />
+            </div>
+
+            <div class="cards">
+              <p class="poppins-medium">Reaper</p>
+              <img src="assets/image/REAPER_logo.png" class="logo" />
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <div id="activity">
+          <h4>Mis Actividades Favoritas</h4>
+
+          <input 
+          type="text"
+          name="title"
+          placeholder="Titulo"
+          class="input"
+          id="title">
+
+          <textarea 
+          name="description"
+          placeholder="Descripción"
+          class="input"
+          id="description"
+          ></textarea>
+
+          <input 
+          type="text"
+          name="image"
+          placeholder="URL de la imagen"
+          class="input"
+          id="imgUrl"
+          >
+
+          <button id="boton" class="btn">Agregar actividades</button>
+          
+
+        </div>
+
+         <div id="contenedorTarjetas"></div>
+         
+      </section>
+    </main>
+
+    <script src="scripts/index.js"></script>
+
+  </body>
+</html>

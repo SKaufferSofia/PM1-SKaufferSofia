@@ -1,0 +1,194 @@
+body {
+  background-color: #1b1b1b;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #919191;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 130%;
+}
+h2 {
+  font-size: 100%;
+}
+
+p {
+  font-size: 80%;
+}
+
+#perfil {
+  background-color: #919191;
+  width: 1100px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 5px 10px 0px #00000062;
+}
+
+#sobreMi {
+  width: 300px;
+  height: 230px;
+  margin-left: 20px;
+  margin-top: 50px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+}
+
+#tecnologias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  color: white;
+}
+
+#activity {
+  background-color: #919191;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1100px;
+  height: 400px;
+  box-shadow: 0px 5px 10px 0px #00000062;
+  margin-top: 70px;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.cards {
+  background-color: #4c4d5e;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  filter: grayscale(100%);
+  color: rgba(0, 3, 163, 0);
+  box-shadow: 0px 5px 10px 0px #00000062;
+}
+.cards:hover {
+  background-color: #252527;
+  width: 135px;
+  height: 135px;
+  border-radius: 150px;
+  filter: grayscale(0%);
+  color: white;
+  font-size: 115%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 5px 10px 0px #00000062;
+  transition: 0.1s ease-in-out;
+}
+
+.logo {
+  height: 80px;
+  margin-top: 15px;
+}
+
+.imagen {
+  height: 50px;
+}
+
+.input {
+  background-color: #dfdfdf;
+  width: 500px;
+  height: 30px;
+}
+
+.btn {
+  background-color: #4c4d5e;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+.btn:hover {
+  background-color: #252527;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+
+.btnDelete {
+  background-color: #4c4d5e;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+#contenedorTarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#contenedorTarjetas :hover {
+  background-color: #1b1b1b;
+}
+
+.cardsInput {
+  background-color: #252525;
+  width: 280px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  filter: grayscale(100%);
+  color: white;
+}
+
+.cardsInput:hover {
+  filter: grayscale(0%);
+  width: 285px;
+  height: 225px;
+  transition: 0.1s ease-in-out;
+}
+
+.tituloInput {
+  font-size: 18px;
+}
+.imgInput {
+  height: 150px;
+  margin-top: 10px;
+}
+
+.descripcionInput {
+  margin-top: 5px;
+}
