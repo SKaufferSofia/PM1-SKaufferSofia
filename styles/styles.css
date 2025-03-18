@@ -155,7 +155,8 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px;
+  gap: 50px;
 }
 #contenedorTarjetas :hover {
   background-color: #1b1b1b;
